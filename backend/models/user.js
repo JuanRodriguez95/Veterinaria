@@ -4,6 +4,7 @@ const userSchema = new mongoose.Schema({
     name:String,
     idCedula:String,
     address:String,
+    phone:String,
     registerDate:{type:Date,default: Date.now},
     dbStatus:Boolean,
 });

@@ -15,6 +15,7 @@ const registerUser = async (req,res) =>{
         name:req.body.name,
         idCedula:req.body.idCedula,
         address:req.body.address,
+        phone:req.body.phone,
         dbStatus:true,
     });
     let result = await schema.save();
